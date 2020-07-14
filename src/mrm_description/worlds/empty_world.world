@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <world name="default">
+
+    <gravity>0 0 0</gravity>
+    
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!--land-->
+    <include>
+      <uri>model://ground</uri>
+      <static>false</static>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!--nappier grass-->
+    <include>
+      <uri>model://plant</uri>
+      <static>false</static>
+      <pose>-2 0 0.05 0 0 0</pose>
+    </include>
+<!--
+    <include>
+      <uri>model://plant2</uri>
+      <static>false</static>
+      <pose>-2 -2 0.05 0 0 0</pose>
+    </include>
+-->
+  </world>
+</sdf>
+

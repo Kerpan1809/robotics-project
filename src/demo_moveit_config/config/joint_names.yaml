@@ -1,0 +1,2 @@
+controller_joint_names: [chassis__arm1, joint1_arm1, joint2_arm1, joint3_arm1, gripper_left, gripper_right, chassis__arm1, joint1_arm2, joint2_arm2]
+
